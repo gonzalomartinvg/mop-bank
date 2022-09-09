@@ -58,6 +58,7 @@ body{
 
 .bloques{
    width: 95%;
+   min-height: 14rem;
    gap: 1rem;
    margin: auto;
    margin-top: 1rem;
@@ -123,6 +124,7 @@ body{
 }
 
 .contenedor-cuenta .movimientos{
+    max-height: 2rem;
     grid-column: 2 / 3;
     grid-row: 5 / 6;
     text-align: center;
@@ -148,7 +150,7 @@ body{
     display: grid;
     grid-gap: 1rem;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 5rem);
+    grid-template-rows: repeat(2, 5.5rem);
 
 }
 
@@ -195,7 +197,7 @@ body{
 .contenedor-tarjetas{
     width: 100%;
     max-width: 43rem; /*Todos los contenedores de este diseño llegan hasta máximo 43rem, esto hace que se vea muy estético en ordenador*/
-    height: 100%;
+    height: 14rem;
     margin: auto;
     padding: 1rem;
     display: grid;
@@ -203,7 +205,7 @@ body{
     border-radius: 1rem;
     grid-template-columns: repeat(2, minmax(18rem, 21.5rem)); /*Al colocar el máximo 21.5rem (la mitad del máx-width) nos garantizamos que mantenga
     el diseño estético al crecer y se adapte a la totalidad del contenedor. Esto es aplicable a este diseño en particular*/
-    grid-template-rows: repeat(5, 1.5rem);
+    grid-template-rows: repeat(5, 1fr);
     overflow-x: auto;
 
 }
@@ -223,19 +225,19 @@ body{
     width: 100%; /*Usar porcentaje sirve para responsive*/
     max-width: 43rem; /*Le indicamos que como máximo crezca hasta 43 rem, sirve para que cuando se vea en ordenador, no ocupe el 85% sino que deje
     espacio para otro contendor mejorando la visibilidad y la adaptación*/
-    height: 100%;
+    height: 14rem;
     margin: auto;
     border-radius: 1rem;
     box-shadow: 0.3rem 0.3rem 0.3rem rgb(204, 201, 201);
     display: grid;
     gap: 0.5rem;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(5, 2rem);
+    grid-template-rows: repeat(5, 1fr);
 
 }
 
 .imagen-profile-cuentas{
-    width: 80%;
+    width: 30%;
     border-radius: 50%;
     border: solid var(--blanco-1) 0.2rem;
     grid-column-end: 1 / 2;
