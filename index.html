@@ -12,6 +12,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="menu.css">
+    <link rel="icon" type="image/x-icon" href="/images/logo favicon-01.png">
 
 </head>
 <body>
@@ -20,7 +21,8 @@
 
       <div class="container-menu">
         
-         <p class="nombre-empresa">Mop´s Bank</p>
+        <img src="images/logo mop-01.png" alt="logo del banco">
+        <p class="nombre-empresa">Mop´s Bank</p>
 
       <!-- Comienza Menú hamburguesa para móvil -->
          
@@ -32,9 +34,11 @@
 
          <nav id="nav" class="main-nav">
           <div class="nav-links">
-            <a class="link-item" href="#ancla-propuesta">Propuesta</a>
-            <a class="link-item" href="#ancla-proyectos">Proyectos</a>
-            <a class="link-item" href="#ancla-quienes-somos">Quiénes somos</a>
+            <a class="link-item" href="#ancla-propuesta">Cuentas</a>
+            <a class="link-item" href="#ancla-proyectos">Tarjetas</a>
+            <a class="link-item" href="#ancla-quienes-somos">Transacciones</a>
+            <a class="link-item" href="#ancla-propuesta">Inversiones</a>
+            <a class="link-item" href="#ancla-proyectos">Contacto</a>
           </div>
          </nav>
 
@@ -67,19 +71,19 @@
         <div class="contenedor-acciones">
           
           <div class="contenedor-items-background">
-            <div class="contenedor-items-iconos"><a href=""><i class="items-iconos fa-solid fa-money-bill-transfer"></i></a></div>
+            <div class="contenedor-items-iconos"><a href=""><i class="items-iconos fa-solid fa-money-bill-transfer"></i></a><p class="texto-acciones">Transferir</p></div>
           </div>
 
           <div class="contenedor-items-background">
-            <div class="contenedor-items-iconos"><a href=""><i class="items-iconos fa-solid fa-hand-holding-dollar"></i></a></div>
+            <div class="contenedor-items-iconos"><a href=""><i class="items-iconos fa-solid fa-hand-holding-dollar"></i></a><p class="texto-acciones">Pagar servicio</p></div>
           </div>
 
           <div class="contenedor-items-background">
-            <div class="contenedor-items-iconos"><a href=""><i class="items-iconos fa-solid fa-money-bill-trend-up"></i></a></div>
+            <div class="contenedor-items-iconos"><a href=""><i class="items-iconos fa-solid fa-money-bill-trend-up"></i></a><p class="texto-acciones">Invertir</p></div>
           </div>
 
           <div class="contenedor-items-background">
-            <div class="contenedor-items-iconos"><a href=""><i class="items-iconos fa-solid fa-dollar-sign"></i></a></div>
+            <div class="contenedor-items-iconos"><a href=""><i class="items-iconos fa-solid fa-dollar-sign"></i></a><p class="texto-acciones">Compra/venta</p></div>
           </div>
           
         </div>
@@ -93,19 +97,55 @@
 
           <div class="tarjetas tarjeta-1">
 
-            <p class="numero-tarjeta">4080 9723 6863 2351 </p>
-            <P class="nombre-tarjeta">Roberto Pescia</P>
-            <P class="codigo-tarjeta">61**</P>
-            <i class="fa-brands fa-cc-visa"></i>
+            <div class="parte-superior">
+
+              <p>Credit card</p>
+              <img src="images/logo mop-01.png" alt="logo">
+
+            </div>
+            
+            <div class="parte-media">
+
+              <img src="images/chip-01.png" alt="chip de tarjeta">
+              <p class="numero-tarjeta">4080 9723 6863 2351</p>
+              <P class="codigo-tarjeta">61**</P>
+              <p class="hasta">hasta <br> <span class="span-hasta">09/24</span></p>
+
+            </div>
+
+            <div class="parte-inferior">
+
+              <P class="nombre-tarjeta">ROBERTO PESCIA</P>
+              <i class="fa-brands fa-cc-visa gm-visa"></i>
+
+            </div>
 
           </div>
 
           <div class="tarjetas tarjeta-2">
 
-              <p class="numero-tarjeta">4080 9723 6863 2351 </p>
-              <P class="nombre-tarjeta">Roberto Pescia</P>
-              <P class="codigo-tarjeta">61**</P>
-              <i class="fa-brands fa-cc-visa"></i>
+            <div class="parte-superior">
+
+              <p>Credit card</p>
+              <img src="images/logo mop-01.png" alt="logo">
+
+            </div>
+            
+            <div class="parte-media">
+
+              <img src="images/chip-01.png" alt="chip de tarjeta">
+              <p class="numero-tarjeta">4071 1546 7863 2321 </p>
+              <P class="codigo-tarjeta">38**</P>
+              <p class="hasta">hasta <br> <span class="span-hasta">10/25</span></p>
+
+            </div>
+
+            <div class="parte-inferior">
+
+              <P class="nombre-tarjeta">ROBERTO PESCIA</P>
+              <i class="fa-brands fa-cc-visa gm-visa"></i>
+              
+            </div>
   
           </div>
     
@@ -114,12 +154,13 @@
         <div class="contenedor-extra">
 
           <img class="imagen-profile-cuentas" src="/images/cuentas-profile.png" alt="imagen del administrador de cuenta">
-          <div class="barra-de-color"></div>
-          <p>Hola, soy Jorge Astrada, tu ejecutivo personal.</p>
-          <a href="">Whatsapp</a>
-          <a href="">Mail</a>
-
-         </div>
+          <div class="barra-de-color">
+            <a class="boton-whatsapp" href="">Whatsapp</a>
+            <a class="boton-mail" href="">Mail</a>
+          </div>
+          <p>Hola, soy Jorge Aspin, tu ejecutivo personal.</p>
+         
+        </div>
   
       </div>
     
@@ -127,18 +168,9 @@
 
     <footer>
 
-        <!-- Comienza bottom bar para móvil -->
-
-        <br> <!-- Los br permite que el Bottom Bar no tape el último elemento, en este caso, el "Contenedor-extra" -->
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-
-        <div class="bottom-bar"></div>
-  
-        <!-- Finaliza bottom bar para móvil -->
+        <div class="bottom-bar">
+          <p>© 2022 Gonzalo Volpe Gómez</p>
+        </div>
 
     </footer>
 

@@ -9,7 +9,7 @@
 .bars-menu{ /*Es el contenedor del menú superior derecho con las tres líneas*/
     width: 30px; /*Le decimos que tenga ancho de 30px*/
     height: 30px; /*Le decimos que tenga alto de 30px*/
-    grid-column: 2 / 3;
+    grid-column: 3 / 4;
     cursor: pointer; /*Le indicamos que al pasar el cursor por arriba se active la manito de clickeable*/
     justify-self: end;
     align-self: center;
