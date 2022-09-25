@@ -242,12 +242,12 @@ body{
 }
 
 .tarjeta-1{
-    background-image: url(/images/tarjeta-rosa-01-01.jpg);
+    background-image: url(images/tarjeta-rosa-01-01.jpg);
     size: cover;
 }
 
 .tarjeta-2{
-    background-image: url(/images/tarjeta\ black-01.jpg);
+    background-image: url(images/tarjeta\ black-01.jpg);
     size: cover;
 }
 
